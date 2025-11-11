@@ -27,19 +27,26 @@ h1, h2, h3 {
 .introduccion {
     margin: 20px;
     padding: 20px;
+    display: flex;
+    justify-content: space-around;
 }
 
-.introduccion img {
+.perfil-texto img {
     width: 20%;
     border-radius: 25%;
     margin: 0 auto;
 }
 
-.introduccion p {
+.perfil-texto p {
     margin-top: 10px;
     font-size: .9em;
-    width: 30%;
     color: #777777;
+    width: 50%;
+}
+
+#contador {
+    font-weight: bold;
+    color: #00ffcc;
 }
 
 .border {
@@ -195,6 +202,13 @@ footer {
     display: flex;
     align-items: center;
     margin-right: 10px;
+}
+
+.copyright {
+    color: #777777;
+    font-size: 0.8em;
+    align-self: center;
+    margin: 1rem;
 }
 
 .links {
